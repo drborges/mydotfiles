@@ -1,0 +1,44 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-shift-o": "outline::Toggle",
+      "cmd-shift-g": "go_to_line::Toggle"
+    }
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-shift-r": "terminal_panel::ToggleFocus",
+      "cmd-alt-ctrl-right": "workspace::ActivatePaneRight",
+      "cmd-alt-ctrl-left": "workspace::ActivatePaneLeft",
+      "cmd-alt-ctrl-up": "workspace::ActivatePaneUp",
+      "cmd-alt-ctrl-down": "workspace::ActivatePaneDown"
+    }
+  },
+  {
+    "context": "Terminal",
+    "bindings": {
+      "cmd-shift-r": "terminal_panel::ToggleFocus",
+      "cmd-n": "workspace::NewTerminal"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "cmd-shift-alt-up": "pane::SplitAndMoveUp",
+      "cmd-shift-alt-down": "pane::SplitAndMoveDown",
+      "cmd-shift-alt-left": "pane::SplitAndMoveLeft",
+      "cmd-shift-alt-right": "pane::SplitAndMoveRight",
+      "cmd-shift-r": "terminal_panel::ToggleFocus",
+      "cmd-1": ["pane::ActivateItem", 0],
+      "cmd-2": ["pane::ActivateItem", 1],
+      "cmd-3": ["pane::ActivateItem", 2],
+      "cmd-4": ["pane::ActivateItem", 3],
+      "cmd-5": ["pane::ActivateItem", 4],
+      "cmd-6": ["pane::ActivateItem", 5],
+      "cmd-7": ["pane::ActivateItem", 6],
+      "cmd-8": ["pane::ActivateItem", 7]
+    }
+  }
+]

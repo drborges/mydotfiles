@@ -1,0 +1,16 @@
+# Theme
+theme = Catppuccin Frappe
+# theme = Nord
+
+# Shaders
+custom-shader =  shaders/cursor_blaze.glsl
+
+# Editor
+font-family = FiraCode Nerd Font Mono
+font-size = 10
+
+# Cursor
+cursor-style = block
+
+# Window
+maximize = true
