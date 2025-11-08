@@ -2,4 +2,4 @@
 
 mkdir -p ~/.config
 
-stow -t "$HOME" dconfig git zsh
+stow -t "$HOME" home
