@@ -23,8 +23,10 @@ fi
 source "${ZINIT_HOME}/zinit.zsh"
 source "${HOME}/.config/zsh/init.zsh"
 
-# Add in Powerlevel10k
-zinit ice depth=1; zinit light romkatv/powerlevel10k
+zinit ice as"command" from"gh-r" \
+          atclone"./starship init zsh > init.zsh; ./starship completions zsh > _starship" \
+          atpull"%atclone" src"init.zsh"
+zinit light starship/starship
 
 # Add in zsh plugins
 zinit light zsh-users/zsh-syntax-highlighting
@@ -35,10 +37,6 @@ zinit light jeffreytse/zsh-vi-mode
 zinit light agkozak/zsh-z
 
 # Add in snippets
-#zinit snippet OMZL::git.zsh
-#zinit snippet OMZP::git
-#zinit snippet OMZP::sudo
-#zinit snippet OMZP::archlinux
 zinit snippet OMZP::command-not-found
 
 # Load completions
