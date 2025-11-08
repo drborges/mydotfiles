@@ -31,6 +31,7 @@ zinit light zsh-users/zsh-completions
 zinit light zsh-users/zsh-autosuggestions
 zinit light Aloxaf/fzf-tab
 zinit light jeffreytse/zsh-vi-mode
+zinit light agkozak/zsh-z
 
 # Add in snippets
 zinit snippet OMZL::git.zsh

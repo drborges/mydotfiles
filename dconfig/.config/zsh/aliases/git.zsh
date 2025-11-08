@@ -1,0 +1,5 @@
+alias g='git'
+alias gs='g st'
+alias gc='g cm'
+alias gl='g log'
+alias ga='g add'

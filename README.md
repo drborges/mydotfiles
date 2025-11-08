@@ -4,6 +4,8 @@
 
 - [ ] create init.sh to:
   - [ ] install CLI tools
+    - [ ] Install copilot CLI: `npm install -g @github/copilot`
+    - [ ] Install asdf to manage some package versions
     - [ ] Install https://github.com/zdharma-continuum/zinit?tab=readme-ov-file to manage plugins
     - [ ] https://github.com/tmux/tmux or https://github.com/zellij-org/zellij Terminal multiplexer
     - [ ] btop to replace top

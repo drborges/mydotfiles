@@ -1,6 +1,6 @@
-zed/conversations/
-zed/embeddings/
-zed/prompts/
-zed/themes/
-zed/*_backup.json
+**/zed/conversations/
+**/zed/embeddings/
+**/zed/prompts/
+**/zed/themes/
+**/zed/*_backup.json
 .DS_Store
