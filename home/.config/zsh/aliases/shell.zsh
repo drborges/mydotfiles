@@ -2,4 +2,5 @@ alias ls='ls --color'
 alias ll='ls -las'
 alias vim='nvim'
 alias c='clear'
-
+alias el='eza --icons --git --total-size --tree --follow-symlinks'
+alias ell='eza --long --icons --git --total-size --tree --follow-symlinks'

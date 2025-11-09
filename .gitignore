@@ -3,4 +3,5 @@
 **/zed/prompts/
 **/zed/themes/
 **/zed/*_backup.json
+eza/
 .DS_Store
