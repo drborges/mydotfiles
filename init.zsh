@@ -15,6 +15,7 @@ brew install iredis
 brew install xo/xo/usql
 brew install nushell
 brew install dust
+brew install tmux
 brew install difftastic
 brew install yazi \
              ffmpeg \
