@@ -67,5 +67,3 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
 export FPATH="$(which eza)/completions/zsh:$FPATH"
-export FPATH="$(which eza)/completions/zsh:$FPATH"
-export FPATH="$(which eza)/completions/zsh:$FPATH"
