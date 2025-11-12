@@ -6,7 +6,8 @@ theme = Catppuccin Frappe
 custom-shader =  shaders/cursor_blaze.glsl
 
 # Editor
-font-family = FiraCode Nerd Font Mono
+# font-family = FiraCode Nerd Font Mono
+font-family = Fira Code
 font-size = 10
 
 # Cursor
