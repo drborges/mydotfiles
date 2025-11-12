@@ -17,18 +17,18 @@ brew install nushell
 brew install dust
 brew install tmux
 brew install difftastic
-brew install yazi \
-             ffmpeg \
-             sevenzip \
-             jq \
-             poppler \
-             fd \
-             ripgrep \
-             fzf \
-             zoxide \
-             resvg \
-             imagemagick \
-             font-symbols-only-nerd-font
+brew install yazi
+brew install ffmpeg
+brew install sevenzip
+brew install jq
+brew install poppler
+brew install fd
+brew install ripgrep
+brew install fzf
+brew install zoxide
+brew install resvg
+brew install imagemagick
+brew install font-symbols-only-nerd-font
 
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git

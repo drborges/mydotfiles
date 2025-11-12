@@ -8,13 +8,7 @@
 // from the command palette or from `Zed` application menu.
 {
   "edit_predictions": {
-    "mode": "subtle",
-    "copilot": {
-      "proxy": null,
-      "proxy_no_verify": null,
-      "enterprise_uri": null
-    },
-    "enabled_in_text_threads": false
+    "mode": "eager"
   },
   "context_servers": {
     "github-activity-summarizer": {
