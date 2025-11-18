@@ -17,6 +17,7 @@ fi
 # Source/Load zinit
 source "${ZINIT_HOME}/zinit.zsh"
 source "${HOME}/.config/zsh/init.zsh"
+source /opt/homebrew/opt/asdf/libexec/asdf.sh
 
 zinit ice as"command" from"gh-r" \
           atclone"./starship init zsh > init.zsh; ./starship completions zsh > _starship" \
@@ -30,9 +31,6 @@ zinit light Aloxaf/fzf-tab
 zinit light jeffreytse/zsh-vi-mode
 zinit light agkozak/zsh-z
 
-# Add in snippets
-zinit snippet OMZP::command-not-found
-
 # Load completions
 autoload -Uz compinit && compinit
 
@@ -40,7 +38,7 @@ zinit cdreplay -q
 
 # Keybindings
 bindkey -e
-bindkey '^p' history-search-backward
+bindkey '^p' history-search-backwar
 bindkey '^n' history-search-forward
 bindkey '^[w' kill-region
 

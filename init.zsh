@@ -29,6 +29,7 @@ brew install zoxide
 brew install resvg
 brew install imagemagick
 brew install font-symbols-only-nerd-font
+brew install zellij
 
 asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
 asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
@@ -39,6 +40,7 @@ asdf plugin update --all
 asdf install
 
 npm install -g tunnelmole
+gem install retest
 
 # Currently using the Mac packaagee but it would be ideal to
 # be able to install it via brew.
